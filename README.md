@@ -27,8 +27,6 @@ Para executar os códigos deste projeto, siga as instruções abaixo:
 python3 graph.py
 </pre>
 
-Certifique-se de substituir "arquivo" pelo nome real do arquivo Python.
-
 ## Contribuição
 
 Este projeto é resultado de uma atividade acadêmica e não está aberto para contribuições externas no momento.
