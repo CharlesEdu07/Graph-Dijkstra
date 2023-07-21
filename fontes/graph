@@ -1,0 +1,75 @@
+digraph {
+	1
+	1 -> 6 [label="weight: 71"]
+	1 -> 2 [label="weight: 33"]
+	2
+	2 -> 1 [label="weight: 45"]
+	2 -> 7 [label="weight: 42"]
+	2 -> 3 [label="weight: 65"]
+	3
+	3 -> 2 [label="weight: 100"]
+	3 -> 8 [label="weight: 80"]
+	3 -> 4 [label="weight: 17"]
+	4
+	4 -> 3 [label="weight: 91"]
+	4 -> 5 [label="weight: 22"]
+	5
+	5 -> 4 [label="weight: 90"]
+	5 -> 10 [label="weight: 24"]
+	6
+	6 -> 1 [label="weight: 50"]
+	6 -> 11 [label="weight: 89"]
+	6 -> 7 [label="weight: 23"]
+	7
+	7 -> 2 [label="weight: 71"]
+	7 -> 6 [label="weight: 81"]
+	7 -> 8 [label="weight: 58"]
+	8
+	8 -> 3 [label="weight: 43"]
+	8 -> 7 [label="weight: 28"]
+	9
+	10
+	10 -> 5 [label="weight: 29"]
+	10 -> 15 [label="weight: 48"]
+	11
+	11 -> 6 [label="weight: 13"]
+	11 -> 16 [label="weight: 52"]
+	12
+	13
+	14
+	15
+	15 -> 10 [label="weight: 20"]
+	15 -> 20 [label="weight: 52"]
+	16
+	16 -> 11 [label="weight: 75"]
+	16 -> 21 [label="weight: 50"]
+	17
+	18
+	18 -> 23 [label="weight: 46"]
+	18 -> 19 [label="weight: 35"]
+	19
+	19 -> 18 [label="weight: 73"]
+	19 -> 24 [label="weight: 16"]
+	19 -> 20 [label="weight: 2"]
+	20
+	20 -> 15 [label="weight: 0"]
+	20 -> 19 [label="weight: 17"]
+	20 -> 25 [label="weight: 13"]
+	21
+	21 -> 16 [label="weight: 16"]
+	21 -> 22 [label="weight: 24"]
+	22
+	22 -> 21 [label="weight: 4"]
+	22 -> 23 [label="weight: 19"]
+	23
+	23 -> 18 [label="weight: 21"]
+	23 -> 22 [label="weight: 43"]
+	23 -> 24 [label="weight: 78"]
+	24
+	24 -> 19 [label="weight: 4"]
+	24 -> 23 [label="weight: 58"]
+	24 -> 25 [label="weight: 36"]
+	25
+	25 -> 20 [label="weight: 63"]
+	25 -> 24 [label="weight: 39"]
+}
